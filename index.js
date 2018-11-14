@@ -28,4 +28,8 @@ function appendKitten(name) {
   return newKittenArray
 }
 
-console.log(newKittenArray)
+function prependKitten(name) {
+  var newKittenArray = kittens.concat()
+  newKittenArray.unshift(name)
+  return newKittenArray
+}
