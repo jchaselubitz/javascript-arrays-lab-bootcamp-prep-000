@@ -33,3 +33,9 @@ function prependKitten(name) {
   newKittenArray.unshift(name)
   return newKittenArray
 }
+
+function removeLastKitten () {
+  var newKittenArray = kittens.concat()
+  newKittenArray.pop()
+  return newKittenArray
+}
