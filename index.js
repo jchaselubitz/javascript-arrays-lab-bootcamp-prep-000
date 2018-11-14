@@ -26,3 +26,5 @@ function appendKitten(name) {
   var newKittenArray = kittens.concat()
   return newKittenArray
 }
+
+console.log(newKittenArray)
